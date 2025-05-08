@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.image-wrapper {
+  border-radius: 2px;
+  overflow: hidden;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-content {
+  background-color: transparent;
+  border: none;
+}
+
+.title,
+.description-yoga {
+  margin: 0 0 10px 0;
+}
+
+.description-yoga {
+  background-color: transparent !important;
+  text-align: left;
+}
+
+h5.title {
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 12px;
+}
+
+.btn {
+  font-size: 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-left: 13px;
+}
+
+.description-weather {
+  background-color: transparent !important;
+  text-align: left;
+}
+
+.description-yogurt {
+  background-color: transparent !important;
+  text-align: left;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  height: 350px;
+  max-width: 250px;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
